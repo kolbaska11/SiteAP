@@ -59,10 +59,10 @@
 Публичную демоверсию можно посмотреть без Node.js и сервера.
 
 1. Скачать репозиторий.
-2. Открыть файл **\`docs/index.html\`** в браузере.
+2. Открыть файл **`docs/index.html`** в браузере.
 3. Переключаться между разделами и проверять интерфейс.
 
-Все файлы публичной демонстрации находятся в **\`docs/\`**. Для публикации на GitHub Pages: **Settings → Pages → Build and deployment → Deploy from a branch → ветка `main`, каталог `/docs` → Save**.
+Все файлы публичной демонстрации находятся в **`docs/`**. Для публикации на GitHub Pages: **Settings → Pages → Build and deployment → Deploy from a branch → ветка `main`, каталог `/docs` → Save**.
 
 ---
 
