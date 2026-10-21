@@ -26,8 +26,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Check client JavaScript
+        run: node --check docs/app.js
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Upload client site
         uses: actions/upload-pages-artifact@v3
         with:
